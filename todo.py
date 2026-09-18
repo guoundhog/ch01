@@ -18,6 +18,11 @@ def main():
     add_task("Learn Git")
     add_task("Learn Git")
     show_tasks()
+    delete_task("Learn Git")
+    show_tasks()
+    delete_task("Not Exist")
+    show_tasks()
+
 
 
 if __name__ == "__main__":
